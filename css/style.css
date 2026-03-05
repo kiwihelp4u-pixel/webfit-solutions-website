@@ -1,0 +1,72 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* container */
+
+.container{
+width:1200px;
+max-width:90%;
+margin:auto;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:#0b1c3d;
+color:white;
+padding:20px 0;
+}
+
+.nav-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:30px;
+font-size:16px;
+}
+
+/* HERO */
+
+.hero{
+height:80vh;
+display:flex;
+align-items:center;
+background:#f5f7fb;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.cta{
+background:#1e6cff;
+color:white;
+border:none;
+padding:15px 30px;
+font-size:16px;
+cursor:pointer;
+}
