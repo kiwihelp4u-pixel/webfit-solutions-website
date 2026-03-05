@@ -23,9 +23,13 @@ margin:auto;
 
 .navbar{
 position:absolute;
+top:0;
 width:100%;
 z-index:10;
 padding:25px 0;
+
+background:rgba(10,20,40,0.35);
+backdrop-filter:blur(10px);
 }
 
 .nav{
@@ -47,6 +51,11 @@ margin:0 18px;
 text-decoration:none;
 color:white;
 font-size:15px;
+transition:0.3s;
+}
+
+.menu a:hover{
+color:#3bbcff;
 }
 
 .nav-btn{
@@ -78,7 +87,8 @@ background:rgba(0,0,0,0.65);
 
 .hero-content{
 position:relative;
-max-width:700px;
+max-width:720px;
+margin-left:40px;
 }
 
 .tagline{
@@ -111,21 +121,38 @@ gap:20px;
 }
 
 .primary-btn{
-background:#2db4ff;
+background:linear-gradient(90deg,#25a7ff,#2de1ff);
 border:none;
-padding:15px 30px;
-border-radius:30px;
+padding:16px 32px;
+border-radius:40px;
 color:white;
 font-size:16px;
 cursor:pointer;
+font-weight:600;
+
+box-shadow:0 10px 30px rgba(0,150,255,0.35);
+
+transition:0.3s;
+}
+
+.primary-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 15px 35px rgba(0,150,255,0.5);
 }
 
 .secondary-btn{
-background:transparent;
+background:rgba(255,255,255,0.05);
 border:1px solid rgba(255,255,255,0.4);
-padding:15px 30px;
-border-radius:30px;
+padding:16px 32px;
+border-radius:40px;
 color:white;
 font-size:16px;
 cursor:pointer;
+backdrop-filter:blur(10px);
+
+transition:0.3s;
+}
+
+.secondary-btn:hover{
+background:rgba(255,255,255,0.12);
 }
