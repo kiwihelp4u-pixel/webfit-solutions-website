@@ -31,8 +31,6 @@ Webfit
 <a href="#">Home</a>
 <a href="#about">About</a>
 <a href="#services">Services</a>
-<a href="#portfolio">Portfolio</a>
-<a href="#">Blog</a>
 <a href="#contact">Contact</a>
 
 </nav>
@@ -64,7 +62,7 @@ Build. Transform. Scale.
 <p class="description">
 We help businesses move from outdated systems to modern, scalable
 digital solutions. From custom web development to enterprise software,
-we're your long-term technology partner.
+we are your long-term technology partner.
 </p>
 
 <div class="hero-buttons">
@@ -74,7 +72,7 @@ Start Your Project →
 </button>
 
 <button class="secondary-btn">
-View Our Work
+View Our Services
 </button>
 
 </div>
@@ -177,40 +175,6 @@ Learn More →
 
 
 
-<section class="portfolio" id="portfolio" data-aos="fade-up">
-
-<div class="container">
-
-<h2 class="section-title">Our Work</h2>
-
-<div class="portfolio-grid">
-
-<div class="project-card">
-<img src="images/project1.jpg">
-<h3>Webfit News</h3>
-<p>Digital media platform covering news, community events and business stories.</p>
-</div>
-
-<div class="project-card">
-<img src="images/project2.jpg">
-<h3>KiwiHelp Platform</h3>
-<p>Online service marketplace helping users connect with trusted professionals.</p>
-</div>
-
-<div class="project-card">
-<img src="images/project3.jpg">
-<h3>UPANZ Website</h3>
-<p>Community organization website with event promotion and member engagement.</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
 <section class="clients" data-aos="fade-up">
 
 <div class="container">
@@ -277,23 +241,29 @@ Learn More →
 
 <div class="container">
 
-<h2 class="section-title">Contact Us</h2>
+<h2 class="section-title">Start Your Project</h2>
 
 <p style="text-align:center;margin-bottom:40px;color:#555;">
-Have a project in mind? Get in touch with us.
+Tell us about your project and we will contact you shortly.
 </p>
 
-<div style="text-align:center;">
+<form class="contact-form" action="https://formsubmit.co/webfittsolutions@gmail.com" method="POST">
 
-<p><strong>Company:</strong> Webfit Solutions Limited</p>
+<input type="text" name="name" placeholder="Your Name" required>
 
-<p><strong>Contact Person:</strong> Sheetal Bhusari</p>
+<input type="email" name="email" placeholder="Your Email" required>
 
-<p><strong>Email:</strong> webfittsolutions@gmail.com</p>
+<input type="text" name="company" placeholder="Company Name">
 
-<p><strong>Website:</strong> webfitt.com</p>
+<textarea name="message" placeholder="Tell us about your project" rows="5" required></textarea>
 
-</div>
+<input type="hidden" name="_captcha" value="false">
+
+<button type="submit" class="primary-btn">
+Send Message
+</button>
+
+</form>
 
 </div>
 
