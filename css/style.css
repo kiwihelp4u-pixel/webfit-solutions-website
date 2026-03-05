@@ -99,7 +99,6 @@ margin-bottom:20px;
 font-size:70px;
 line-height:1.1;
 margin-bottom:25px;
-font-weight:700;
 }
 
 .description{
@@ -109,13 +108,13 @@ margin-bottom:35px;
 color:#d0d8e2;
 }
 
-
-/* BUTTONS */
-
 .hero-buttons{
 display:flex;
 gap:20px;
 }
+
+
+/* BUTTONS */
 
 .primary-btn{
 background:linear-gradient(90deg,#25a7ff,#2de1ff);
@@ -125,9 +124,6 @@ border-radius:40px;
 color:white;
 font-size:16px;
 cursor:pointer;
-font-weight:600;
-box-shadow:0 10px 30px rgba(0,150,255,0.35);
-transition:0.3s;
 }
 
 .secondary-btn{
@@ -136,8 +132,6 @@ border:1px solid rgba(255,255,255,0.4);
 padding:16px 32px;
 border-radius:40px;
 color:white;
-font-size:16px;
-cursor:pointer;
 }
 
 
@@ -166,11 +160,6 @@ background:white;
 padding:35px;
 border-radius:10px;
 box-shadow:0 10px 30px rgba(0,0,0,0.08);
-transition:0.3s;
-}
-
-.service-card p{
-color:#555;
 }
 
 
@@ -186,7 +175,6 @@ color:#111;
 display:grid;
 grid-template-columns:1fr 1fr;
 gap:60px;
-align-items:center;
 }
 
 .about-stats{
@@ -226,6 +214,35 @@ overflow:hidden;
 width:100%;
 height:220px;
 object-fit:cover;
+}
+
+
+/* CLIENT LOGOS */
+
+.clients{
+padding:80px 0;
+background:white;
+color:#111;
+}
+
+.clients-grid{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:40px;
+margin-top:40px;
+}
+
+.clients-grid img{
+height:45px;
+opacity:0.7;
+transition:0.3s;
+}
+
+.clients-grid img:hover{
+opacity:1;
+transform:scale(1.05);
 }
 
 
