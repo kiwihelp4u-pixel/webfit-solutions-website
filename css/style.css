@@ -39,6 +39,8 @@ align-items:center;
 justify-content:space-between;
 }
 
+/* LOGO */
+
 .logo{
 display:flex;
 align-items:center;
@@ -46,18 +48,20 @@ gap:10px;
 }
 
 .logo img{
-width:42px;
-height:42px;
+width:40px;
+height:40px;
 border-radius:50%;
 background:white;
-padding:4px;
+padding:5px;
 }
 
 .logo-text{
 font-weight:600;
 font-size:16px;
-letter-spacing:0.3px;
+letter-spacing:0.4px;
 }
+
+/* MENU */
 
 .menu a{
 margin:0 18px;
@@ -70,6 +74,8 @@ transition:0.3s;
 .menu a:hover{
 color:#3bbcff;
 }
+
+/* NAV BUTTON */
 
 .nav-btn{
 background:#2db4ff;
@@ -135,8 +141,7 @@ line-height:1.7;
 margin-bottom:35px;
 color:#cdd6e2;
 max-width:620px;
-margin-left:auto;
-margin-right:auto;
+margin:auto;
 }
 
 .hero-buttons{
@@ -285,7 +290,7 @@ border-radius:16px;
 display:flex;
 align-items:center;
 justify-content:center;
-font-size:28px;
+font-size:26px;
 color:#25a7ff;
 margin-bottom:22px;
 }
