@@ -9,12 +9,10 @@
 <title>Webfit Solutions Limited</title>
 
 <meta name="description" content="Webfit Solutions Limited is an Auckland based technology company providing web development, cloud solutions and digital transformation services.">
+<meta name="keywords" content="web development Auckland, cloud solutions NZ, enterprise software NZ, Webfit Solutions">
 
 <link rel="stylesheet" href="css/style.css">
-
 <link rel="icon" type="image/png" href="images/favicon.png">
-
-<!-- Scroll Animation Library -->
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 
 </head>
@@ -27,16 +25,14 @@
 <div class="container nav">
 
 <div class="logo">
-Webfit
+Webfit Solutions
 </div>
 
 <nav class="menu">
-
 <a href="#">Home</a>
 <a href="#about">About</a>
 <a href="#services">Services</a>
 <a href="#contact">Contact</a>
-
 </nav>
 
 <a href="#contact" class="nav-btn">
@@ -187,11 +183,11 @@ Start Your Project
 
 <div class="clients-grid">
 
-<img src="images/client1.png">
-<img src="images/client2.png">
-<img src="images/client3.png">
-<img src="images/client4.png">
-<img src="images/client5.png">
+<img src="images/client1.png" alt="Client Logo">
+<img src="images/client2.png" alt="Client Logo">
+<img src="images/client3.png" alt="Client Logo">
+<img src="images/client4.png" alt="Client Logo">
+<img src="images/client5.png" alt="Client Logo">
 
 </div>
 
@@ -243,31 +239,98 @@ Start Your Project
 
 <section class="contact" id="contact" data-aos="fade-up">
 
-<div class="container">
+<div class="container contact-layout">
 
-<h2 class="section-title">Start Your Project</h2>
+<div class="contact-info">
 
-<p style="text-align:center;margin-bottom:40px;color:#555;">
-Tell us about your project and we will contact you shortly.
-</p>
+<h2 class="contact-title">Contact Information</h2>
 
-<form class="contact-form" action="https://formsubmit.co/webfittsolutions@gmail.com" method="POST">
+<div class="contact-item">
+<div class="contact-icon">✉</div>
+<div>
+<h4>Email</h4>
+<p>webfittsolutions@gmail.com</p>
+</div>
+</div>
 
-<input type="text" name="name" placeholder="Your Name" required>
+<div class="contact-item">
+<div class="contact-icon">☎</div>
+<div>
+<h4>Phone</h4>
+<p>022 129 9323</p>
+</div>
+</div>
 
-<input type="email" name="email" placeholder="Your Email" required>
+<div class="contact-item">
+<div class="contact-icon">⌖</div>
+<div>
+<h4>Location</h4>
+<p>Auckland, New Zealand</p>
+</div>
+</div>
 
-<input type="text" name="company" placeholder="Company Name">
+<div class="contact-person-card">
+<h4>Contact Person</h4>
+<p class="contact-person-name">Sheetal Bhusari</p>
+<p class="contact-person-role">Founder & Lead Developer</p>
+</div>
 
-<textarea name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+</div>
+
+
+
+<div class="contact-form-card">
+
+<form class="contact-form-grid" action="https://formsubmit.co/webfittsolutions@gmail.com" method="POST">
 
 <input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="New enquiry from Webfit Solutions website">
 
-<button type="submit" class="primary-btn">
+<div class="form-group">
+<label for="fullName">Full Name *</label>
+<input id="fullName" type="text" name="name" placeholder="John Smith" required>
+</div>
+
+<div class="form-group">
+<label for="emailAddress">Email Address *</label>
+<input id="emailAddress" type="email" name="email" placeholder="john@company.com" required>
+</div>
+
+<div class="form-group">
+<label for="phoneNumber">Phone Number</label>
+<input id="phoneNumber" type="text" name="phone" placeholder="+64 21 123 4567">
+</div>
+
+<div class="form-group">
+<label for="companyName">Company Name</label>
+<input id="companyName" type="text" name="company" placeholder="Your Company">
+</div>
+
+<div class="form-group full-width">
+<label for="serviceInterested">Service Interested In</label>
+<select id="serviceInterested" name="service">
+<option value="">Select a service</option>
+<option>Custom Web Development</option>
+<option>Enterprise Software</option>
+<option>Cloud Solutions</option>
+<option>Digital Transformation</option>
+</select>
+</div>
+
+<div class="form-group full-width">
+<label for="projectDetails">Project Details *</label>
+<textarea id="projectDetails" name="message" placeholder="Tell us about your project, goals, and timeline..." rows="5" required></textarea>
+</div>
+
+<div class="full-width form-button-wrap">
+<button type="submit" class="contact-submit-btn">
 Send Message
 </button>
+</div>
 
 </form>
+
+</div>
 
 </div>
 
@@ -275,24 +338,49 @@ Send Message
 
 
 
-<footer>
+<footer class="footer">
 
+<div class="container footer-grid">
+
+<div class="footer-col">
+<h3>Webfit Solutions</h3>
 <p>
-© 2026 Webfit Solutions Limited. All Rights Reserved.
+Webfit Solutions Limited is an Auckland based technology company helping businesses
+build scalable digital platforms, modern software systems and cloud infrastructure.
 </p>
+</div>
+
+<div class="footer-col">
+<h4>Quick Links</h4>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</div>
+
+<div class="footer-col">
+<h4>Contact</h4>
+<p>Auckland, New Zealand</p>
+<p>Email: webfittsolutions@gmail.com</p>
+<p>Phone: 022 129 9323</p>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© 2026 Webfit Solutions Limited. All Rights Reserved.
+</div>
 
 </footer>
 
 
 <script src="js/script.js"></script>
-
-<!-- Scroll Animation Script -->
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script>
 AOS.init({
-duration:1000,
-once:true
+duration: 1000,
+once: true
 });
 </script>
 
